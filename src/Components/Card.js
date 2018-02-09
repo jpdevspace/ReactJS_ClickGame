@@ -7,8 +7,9 @@ class Card extends Component {
             <div 
                 id={this.props.id}
                 className="card" 
-                // style={{backgroundImage: this.props.image}}
-                style={{backgroundColor: this.props.color}}
+                style={{ backgroundImage: `url("${this.props.image}")` }}
+                // style={{ backgroundImage: `url("${props.image}")` }
+                // style={{backgroundColor: this.props.color}}
                 onClick={() => this.props.addCompare(this.props.id)}
             >
             </div>
