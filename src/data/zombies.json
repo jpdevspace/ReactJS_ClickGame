@@ -1,50 +1,62 @@
 [
     {
         "id": 1,
-        "image": "../src/imgs/z_cowboy.png"
+        "image": "url('/imgs/z_cowboy.png')",
+        "color": "red"
     },
     {
         "id": 2,
-        "image": "../src/imgs/z_digger.png"
+        "image": "url('/imgs/z_digger.png')",
+        "color": "blue"
     },
     {
         "id": 3,
-        "image": "../src/imgs/z_jetpack.png"
+        "image": "url('/imgs/z_jetpack.png')",
+        "color": "black"
     },
     {
         "id": 4,
-        "image": "../src/imgs/z_pachy.png"
+        "image": "url('/imgs/z_pachy.png')",
+        "color": "gray"
     },
     {
         "id": 5,
-        "image": "../src/imgs/z_pirate.png"
+        "image": "url('/imgs/z_pirate.png')",
+        "color": "green"
     },
     {
         "id": 6,
-        "image": "../src/imgs/z_punk.png"
+        "image": "url('/imgs/z_punk.png')",
+        "color": "coral"
     },
     {
         "id": 7,
-        "image": "../src/imgs/z_ski.png"
+        "image": "url('/imgs/z_ski.png')",
+        "color": "orange"
     },
     {
         "id": 8,
-        "image": "../src/imgs/z_wildwest.png"
+        "image": "url('/imgs/z_wildwest.png')",
+        "color": "purple"
     },
     {
         "id": 9,
-        "image": "../src/imgs/z_wiz.png"
+        "image": "url('/imgs/z_wiz.png')",
+        "color": "aqua"
     },
     {
         "id": 10,
-        "image": "../src/imgs/z_cone.png"
+        "image": "url('/imgs/z_cone.png')",
+        "color": "white"
     },
     {
         "id": 11,
-        "image": "../src/imgs/z_newspaper.png"
+        "image": "url('/imgs/z_newspaper.png')",
+        "color": "crimson"
     },
     {
         "id": 12,
-        "image": "../src/imgs/z_suit.png"
+        "image": "url('/imgs/z_suit.png')",
+        "color": "brown"
     }
 ]

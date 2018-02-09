@@ -4,10 +4,14 @@ class Card extends Component {
 
     render() {
         return (
-            <img 
+            <div 
+                id={this.props.id}
                 className="card" 
-                src={this.props.image}
-            />
+                // style={{backgroundImage: this.props.image}}
+                style={{backgroundColor: this.props.color}}
+                onClick={() => this.props.addCompare(this.props.id)}
+            >
+            </div>
         );
     }
 }
