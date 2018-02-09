@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "image": "../src/imgs/z_cowboy.png"
+    },
+    {
+        "id": 2,
+        "image": "../src/imgs/z_digger.png"
+    },
+    {
+        "id": 3,
+        "image": "../src/imgs/z_jetpack.png"
+    },
+    {
+        "id": 4,
+        "image": "../src/imgs/z_pachy.png"
+    },
+    {
+        "id": 5,
+        "image": "../src/imgs/z_pirate.png"
+    },
+    {
+        "id": 6,
+        "image": "../src/imgs/z_punk.png"
+    },
+    {
+        "id": 7,
+        "image": "../src/imgs/z_ski.png"
+    },
+    {
+        "id": 8,
+        "image": "../src/imgs/z_wildwest.png"
+    },
+    {
+        "id": 9,
+        "image": "../src/imgs/z_wiz.png"
+    },
+    {
+        "id": 10,
+        "image": "../src/imgs/z_cone.png"
+    },
+    {
+        "id": 11,
+        "image": "../src/imgs/z_newspaper.png"
+    },
+    {
+        "id": 12,
+        "image": "../src/imgs/z_suit.png"
+    }
+]
