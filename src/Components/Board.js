@@ -12,14 +12,18 @@ class Board extends Component {
     };
 
     handleAddnCompare = zombie => {
+        // Checks if the last clicked zombie was clicked before
         if (this.state.clickedZombies.includes(zombie)) {
             alert("Wrong!");
         }
         else {
+            // If it wasn't clicked before, creates a copy of the previously clicked zombies
             let newZombies = this.state.clickedZombies.slice();
+            // adds the new zombie to that array
             newZombies.push(zombie);
+            // Changes the state to include the newly clicked zombie
             this.setState({ clickedZombies: newZombies })
-            console.log(newZombies);
+            console.log(newZombies);    // Debugging
         }
     } 
 
