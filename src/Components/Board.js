@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import zombies from '../data/zombies.json';
 import Card from './Card';
 
@@ -80,5 +81,12 @@ class Board extends Component {
         );
     }
 }
+
+Board.propTypes = {
+    shake: PropTypes.string,
+    scoreChange: PropTypes.func,
+    gameOver: PropTypes.func,
+    uWin: PropTypes.func
+};
 
 export default Board;

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Scoreboard = props => {
     return (
@@ -10,5 +11,10 @@ const Scoreboard = props => {
     );
 }
 
+Scoreboard.propTypes = {
+    score: PropTypes.string,
+    record: PropTypes.string,
+    message: PropTypes.string
+}
 
 export default Scoreboard;
