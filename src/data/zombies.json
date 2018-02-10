@@ -56,7 +56,7 @@
     },
     {
         "id": 12,
-        "image": "../imgs/z_suit.png",
+        "image": "/imgs/z_suit.png",
         "color": "brown"
     }
 ]
