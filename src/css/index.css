@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
-    background: url('/imgs/bg_1.jpg') center no-repeat;
+    background: url('../imgs/bg_1.jpg') center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     
@@ -118,63 +118,3 @@ h1 {
         text-align: center;
     }
 }
-
-
-/* #one {
-    background: url('../imgs/z_cowboy.png') center no-repeat;
-    background-size: contain;
-}
-
-#two {
-    background: url('../imgs/z_digger.png') center no-repeat;
-    background-size: contain;
-}
-
-#three {
-    background: url('../imgs/z_jetpack.png') center no-repeat;
-    background-size: contain;
-}
-
-#four {
-    background: url('../imgs/z_pachy.png') center no-repeat;
-    background-size: contain;
-}
-
-#five{
-    background: url('../imgs/z_pirate.png') center no-repeat;
-    background-size: contain;
-}
-
-#six{
-    background: url('../imgs/z_punk.png') center no-repeat;
-    background-size: contain;
-}
-
-#seven {
-    background: url('../imgs/z_ski.png') center no-repeat;
-    background-size: contain;
-}
-
-#eight {
-    background: url('../imgs/z_wildwest.png') center no-repeat;
-    background-size: contain;
-}
-#nine {
-    background: url('../imgs/z_wiz.png') center no-repeat;
-    background-size: contain;
-}
-
-#ten {
-    background: url('../imgs/z_newspaper.png') center no-repeat;
-    background-size: contain;
-}
-
-#eleven {
-    background: url('../imgs/z_harlem.png') center no-repeat;
-    background-size: contain;
-}
-
-#twelve {
-    background: url('../imgs/z_suit.png') center no-repeat;
-    background-size: contain;
-} */

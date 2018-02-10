@@ -1,62 +1,62 @@
 [
     {
         "id": 1,
-        "image": "/imgs/z_cowboy.png",
+        "image": "../imgs/z_cowboy.png",
         "color": "red"
     },
     {
         "id": 2,
-        "image": "/imgs/z_digger.png",
+        "image": "../imgs/z_digger.png",
         "color": "blue"
     },
     {
         "id": 3,
-        "image": "/imgs/z_jetpack.png",
+        "image": "../imgs/z_jetpack.png",
         "color": "black"
     },
     {
         "id": 4,
-        "image": "/imgs/z_pachy.png",
+        "image": "../imgs/z_pachy.png",
         "color": "gray"
     },
     {
         "id": 5,
-        "image": "/imgs/z_pirate.png",
+        "image": "../imgs/z_pirate.png",
         "color": "green"
     },
     {
         "id": 6,
-        "image": "/imgs/z_punk.png",
+        "image": "../imgs/z_punk.png",
         "color": "coral"
     },
     {
         "id": 7,
-        "image": "/imgs/z_ski.png",
+        "image": "../imgs/z_ski.png",
         "color": "orange"
     },
     {
         "id": 8,
-        "image": "/imgs/z_wildwest.png",
+        "image": "../imgs/z_wildwest.png",
         "color": "purple"
     },
     {
         "id": 9,
-        "image": "/imgs/z_wiz.png",
+        "image": "../imgs/z_wiz.png",
         "color": "aqua"
     },
     {
         "id": 10,
-        "image": "/imgs/z_harlem.png",
+        "image": "../imgs/z_harlem.png",
         "color": "white"
     },
     {
         "id": 11,
-        "image": "/imgs/z_newspaper.png",
+        "image": "../imgs/z_newspaper.png",
         "color": "crimson"
     },
     {
         "id": 12,
-        "image": "/imgs/z_suit.png",
+        "image": "../imgs/z_suit.png",
         "color": "brown"
     }
 ]
