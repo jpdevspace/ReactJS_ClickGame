@@ -9,8 +9,36 @@ class App extends Component {
     this.state = {
       currentScore: 0,
       record: 0,
-      message: "I'm working"
+      message: ""
     }
+  }
+
+  handleScoreChange = () => {
+    this.setState({
+      currentScore: this.state.currentScore + 1,
+      message: "Good choice!"
+    });
+  }
+
+  handleGameOver = () => {
+    // If this is a new record
+    if (this.state.currentScore > this.state.record) {
+      this.setState({ record: this.state.currentScore }); // Update record
+    } 
+
+    // Then, reset stats and message user
+    this.setState({
+      currentScore: 0,
+      message: "Game Over!"
+    });
+  }
+
+  handleUWin = () => {
+    this.setState({
+      currentScore: 0,
+      record: 0,
+      message: "Congratulations, you won!"
+    });
   }
 
   render() {
@@ -25,7 +53,11 @@ class App extends Component {
           />
         </header>
         <section>
-          <Board />
+          <Board 
+            scoreChange={this.handleScoreChange} 
+            gameOver={this.handleGameOver}
+            uWin={this.handleUWin} 
+          />
         </section>
       </div>
     );
