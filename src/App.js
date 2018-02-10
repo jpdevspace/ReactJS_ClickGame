@@ -9,14 +9,16 @@ class App extends Component {
     this.state = {
       currentScore: 0,
       record: 0,
-      message: ""
+      message: "",
+      classShake: "",
     }
   }
 
   handleScoreChange = () => {
     this.setState({
       currentScore: this.state.currentScore + 1,
-      message: "Good choice!"
+      message: "Good choice!",
+      classShake: "",
     });
   }
 
@@ -25,11 +27,11 @@ class App extends Component {
     if (this.state.currentScore > this.state.record) {
       this.setState({ record: this.state.currentScore }); // Update record
     } 
-
     // Then, reset stats and message user
     this.setState({
       currentScore: 0,
-      message: "Game Over!"
+      message: "Game Over!",
+      classShake: "shake",
     });
   }
 
@@ -54,6 +56,7 @@ class App extends Component {
         </header>
         <section>
           <Board 
+            shake={this.state.classShake}
             scoreChange={this.handleScoreChange} 
             gameOver={this.handleGameOver}
             uWin={this.handleUWin} 

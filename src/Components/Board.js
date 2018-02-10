@@ -31,6 +31,8 @@ class Board extends Component {
                 this.setState({ clickedZombies: newZombies });
                 // Run the scoreChange function to alert the App components
                 this.props.scoreChange();
+                // Shuffle the cards for the next round
+                this.shuffleZombies(this.state.zombies)
                 console.log(this.state.zombies.length);    // Debugging
             }
             else {
@@ -44,6 +46,22 @@ class Board extends Component {
         }
     } 
 
+    shuffleZombies = arr => {
+        // Create a copy of the zombies array
+        let shuffledZombies = arr.slice();
+        // Randomize array using Durstenfeld shuffle algorithm
+        for (let i = shuffledZombies.length - 1; i > 0; i--) {
+            let j = Math.floor(Math.random() * (i + 1));
+            let temp = shuffledZombies[i];
+            shuffledZombies[i] = shuffledZombies[j];
+            shuffledZombies[j] = temp;
+        }
+        // Update the state
+        this.setState({
+            zombies: shuffledZombies
+        });
+    }
+
     render() {
         let eachZombie = this.state.zombies.map(zombie => 
             <Card 
@@ -56,7 +74,7 @@ class Board extends Component {
         );
 
         return (
-            <div id="board">
+            <div id="board" className={this.props.shake}>
                 {eachZombie}
             </div>
         );
